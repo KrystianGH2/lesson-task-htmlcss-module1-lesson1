@@ -1,3 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between 0;
+}
 @font-face {
     font-family: "boots and spurs";
     src: url("fonts/BootsAndSpurs.ttf") format("truetype");
@@ -10,7 +23,33 @@
 html{
     font-family: Roboto, sans-serif;
 }
+ul,a{
+    color: azure;
+}
+.viewguitars{
+    color: black;
+    margin: 10px;
+}
+.guitarlist{
+    color: black;
+    margin: 10px;
+}
+
+h2{
+    margin: 10px;
+
+}
 
 header{
-    background-color: brown;
+    background-color: black;
+    color: white;
+    font-style: bold;
+}
+ul, a {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.authenthic-guitars{
+    font-family: sans-serif;
 }
